@@ -43,6 +43,7 @@ public class TestSelect {
 		for (Fournisseur valeur : listeFournisseurs) {
 			System.out.println(valeur.toString());
 		}
+
 		// étape 5 => libération des ressources
 		resultSet.close();
 		statement.close();
