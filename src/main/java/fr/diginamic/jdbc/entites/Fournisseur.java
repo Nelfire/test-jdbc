@@ -2,9 +2,17 @@ package fr.diginamic.jdbc.entites;
 
 public class Fournisseur {
 
+	/** id du fournisseur */
 	private int id;
+	/** nom du fournisseur */
 	private String nom;
 
+	/**
+	 * Constructeur
+	 * 
+	 * @param id  du fournisseur
+	 * @param nom du fournisseur
+	 */
 	public Fournisseur(int id, String nom) {
 		this.id = id;
 		this.nom = nom;
