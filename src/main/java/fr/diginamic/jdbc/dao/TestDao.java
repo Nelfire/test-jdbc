@@ -8,14 +8,14 @@ public class TestDao {
 
 	public static void main(String[] args) {
 
-		Fournisseur fournisseur = new Fournisseur(8, "L’Espace Création");
+		Fournisseur fournisseur = new Fournisseur(11, "LEspace Création");
 		FournisseurDao interDao = new FournisseurDaoJdbc();
 		try {
 			// Ajout du fournisseur.
 			interDao.insert(fournisseur);
 
 			// Modification du nom du fournisseur.
-			interDao.update("L’Espace Création", "Lespace creation");
+			interDao.update("LEspace Création", "Lespace creation");
 
 			// Affichage de la liste des fournisseurs.
 			System.out.println("--Liste Fournisseurs --");
